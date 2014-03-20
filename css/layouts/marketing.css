@@ -46,8 +46,6 @@ label {
     text-align: center;
 }
 
-
-
 /*
  * -- PURE FORM STYLES --
  * Style the form inputs and labels
@@ -136,8 +134,8 @@ a.pure-button-primary {
 }
 
 #sidebar .pure-menu-open {
-background: transparent;
-border: 0;
+    background: transparent;
+    border: 0;
 }
 
 /*
@@ -147,14 +145,15 @@ border: 0;
 
 .splash-container {
     background-image:url('../../img/common/homepage.jpeg');
+    background-size:100% 100%;
     /* background: #1f8dd6; */
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
-    width: 80%;
+    width: 82%;
     height: 88%;
     top: 0;
-    left: 20%;
+    left: 18%;
     position: fixed !important;
 }
 
@@ -196,7 +195,8 @@ border: 0;
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
     top: 87%;
-    width: 100%;
+    width: 82%;
+    left: 18%;
     min-height: 12%;
     z-index: 2;
     background: white;
