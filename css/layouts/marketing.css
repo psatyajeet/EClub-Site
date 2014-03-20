@@ -125,6 +125,20 @@ a.pure-button-primary {
     color: #AECFE5;
 }
 
+#sidebar {
+    width:20%;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    height:100%;
+    overflow-y: auto;
+    background: #191818;
+}
+
+#sidebar .pure-menu-open {
+background: transparent;
+border: 0;
+}
 
 /*
  * -- SPLASH STYLES --
@@ -132,14 +146,15 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background-image:url('../../img/common/homepage.jpeg');
+    /* background: #1f8dd6; */
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
+    width: 80%;
     height: 88%;
     top: 0;
-    left: 0;
+    left: 20%;
     position: fixed !important;
 }
 
